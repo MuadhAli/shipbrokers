@@ -128,7 +128,7 @@
     .opening-hours-text {
         display: flex;
         flex-direction: column;
-        padding: 6px;
+        /* padding: 6px; */
 
     }
 
@@ -136,15 +136,12 @@
         color: #006f3d;
         /* Green color for the "OPENING HOURS" text */
         font-weight: bold;
-        line-height: 0%;
     }
 
     .grey-text {
         color: #888;
         /* Grey color for the hours text */
         font-size: 14px;
-        /* margin-top: 0%; */
-        line-height: 10%;
     }
 
 }
