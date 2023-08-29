@@ -41,7 +41,10 @@
 
     .nav-main-custom {
         display: flex;
-        flex-grow: 1;
+        align-items: end;
+        flex-direction: row;
+        /* flex-grow: 1; */
+        align-self: flex-end;
         display: block;
         width: 100%;
     }
@@ -57,7 +60,7 @@
     }
 
     .top-second-box {
-        height: 25vh;
+        height: fit-content;
         width: 70vw;
         background-color: white;
 
@@ -68,7 +71,7 @@
     }
 
     .top-main-box {
-        height: 25vh;
+        height: fit-content;
         background-color: white;
 
         display: flex;
@@ -86,7 +89,7 @@
     }
 
     .top-logo-cmps {
-        height: 100px;
+        height: 125px;
         margin-top: 0%;
         padding: 20px;
         padding-left: 0px;
