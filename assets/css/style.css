@@ -6245,12 +6245,17 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 .slider .slide .slide-content .slide-headline {
 	font-family   : var(--global--font-heading);
 	font-weight   : 700;
-	font-size     : 75px;
+	font-size     : 60px;
 	line-height   : 75px;
-	color         : var(--global--color-white);
+	color         : var(--global--color-grey);
 	margin-bottom : 24px;
 	text-transform: capitalize;
-}
+	font-family   : Helvetica Neue LT Com;
+	display       : inline-block;
+	vertical-align: bottom;
+	margin-right  : 55%;
+  }
+  
 
 @media (min-width: 992px) and (max-width: 1200px) {
 	.slider .slide .slide-content .slide-headline {
