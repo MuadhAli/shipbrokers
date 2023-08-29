@@ -2259,7 +2259,8 @@ ul.list-icons li i {
 	-webkit-transform-origin: top;
 	-ms-transform-origin    : top;
 	transform-origin        : top;
-	background-color        : var(--global--color-heading);
+	/* background-color        : var(--global--color-heading); */
+	background-color: #E2FF00;
 	-webkit-transition      : -webkit-transform .24s ease-in-out;
 	transition              : -webkit-transform .24s ease-in-out;
 	-o-transition           : transform .24s ease-in-out;
@@ -18993,7 +18994,9 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer .widget-links ul li a:hover {
-	color: var(--global--color-primary);
+	/* color: var(--global--color-primary); */
+	color: #e2ff00;
+
 }
 
 
@@ -19041,7 +19044,9 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer .widget-contact .widget-content .phone a:hover {
-	color: var(--global--color-primary);
+	/* color: var(--global--color-primary); */
+	color: #e2ff00;
+
 }
 
 .footer .widget-contact .widget-content .email {
@@ -19062,7 +19067,9 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer .widget-contact .widget-content .email a:hover {
-	color: var(--global--color-primary-70);
+	/* color: var(--global--color-primary-70); */
+	color: #e2ff00;
+
 }
 
 .footer .widget-contact .widget-content .address {
@@ -19114,11 +19121,13 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer .widget-contact .widget-content .directions a:hover {
-	color: var(--global--color-primary);
+	/* color: var(--global--color-primary); */
+	color: #e2ff00;
 }
 
 .footer .widget-contact .widget-content .directions a:hover i {
-	color: var(--global--color-primary);
+	/* color: var(--global--color-primary); */
+	color: #e2ff00;
 }
 
 .footer-copyright {
@@ -19167,7 +19176,8 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer-copyright .copyright span a:hover {
-	color: var(--global--color-primary-70);
+	/* color: var(--global--color-primary-70); */
+	color: #e2ff00;
 }
 
 .footer-copyright .copyright .social-icons {
@@ -19207,11 +19217,15 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer-copyright .copyright .social-icons li a:hover {
-	color: var(--global--color-primary);
+	/* color: var(--global--color-primary); */
+	color: #e2ff00;
+
 }
 
 .footer-copyright .copyright .social-icons li a:hover i {
-	color: var(--global--color-primary);
+	/* color: var(--global--color-primary); */
+	color: #e2ff00;
+
 }
 
 .footer-copyright .copyright .social-icons li a i {
