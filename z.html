@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <title>Testimonials</title>
+</head>
+<body>
+  <div class="testimonial-container">
+    <div class="testimonial-slider">
+      <div class="testimonial">
+        <img src="testimonial1.jpg" alt="Client 1">
+        <p class="testimonial-text">"I'm amazed by the quality of their service. They exceeded all my expectations!"</p>
+        <p class="testimonial-author">- John Doe</p>
+      </div>
+      <div class="testimonial">
+        <img src="testimonial2.jpg" alt="Client 2">
+        <p class="testimonial-text">"Working with them was a breeze. The team is professional and responsive."</p>
+        <p class="testimonial-author">- Jane Smith</p>
+      </div>
+      <div class="testimonial">
+        <img src="testimonial3.jpg" alt="Client 3">
+        <p class="testimonial-text">"Their attention to detail is impressive. I'm a happy and satisfied client."</p>
+        <p class="testimonial-author">- Mark Johnson</p>
+      </div>
+    </div>
+    <div class="arrow-icons-container">
+        <div class="arrow-icon" id="prevBtn">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="arrow-icon" id="nextBtn">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+    
+  <script>
+    const testimonials = document.querySelectorAll('.testimonial');
+const prevButton = document.getElementById('prevBtn');
+const nextButton = document.getElementById('nextBtn');
+
+let currentTestimonialIndex = 0;
+
+function showTestimonial(index) {
+  testimonials.forEach(testimonial => {
+    testimonial.style.display = 'none';
+  });
+  testimonials[index].style.display = 'block';
+}
+
+function showNextTestimonial() {
+  currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+  showTestimonial(currentTestimonialIndex);
+}
+
+function showPrevTestimonial() {
+  currentTestimonialIndex = (currentTestimonialIndex - 1 + testimonials.length) % testimonials.length;
+  showTestimonial(currentTestimonialIndex);
+}
+
+nextButton.addEventListener('click', showNextTestimonial);
+prevButton.addEventListener('click', showPrevTestimonial);
+
+// Initially show the first testimonial
+showTestimonial(currentTestimonialIndex);
+
+  </script>
+</body>
+</html>
