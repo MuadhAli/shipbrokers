@@ -57,7 +57,7 @@
     .top-second-box {
         height: 25vh;
         width: 80vw;
-        background-color: black;
+        background-color: white;
 
         display: flex;
         justify-content: center;
@@ -67,7 +67,7 @@
 
     .top-main-box {
         height: 25vh;
-        background-color: blue;
+        background-color: white;
 
         display: flex;
         justify-content: center;
@@ -86,6 +86,7 @@
     .top-logo-cmps{
         height: 100px;
         margin-top: 0%;
+        padding: 5px;
         
     }
 }
