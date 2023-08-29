@@ -3,7 +3,7 @@
     .nav-sec1 {
         background-color: #209159;
         flex: 0 0 60%;
-        /* height: 8vh; */
+        height: 8vh;
 
         display: flex;
         align-items: center;
@@ -17,6 +17,7 @@
         display: flex;
         background-color: #006f3d;
         flex: 0 0 15%;
+        height: 8vh;
 
         justify-content: center;
         color: white;
@@ -29,6 +30,7 @@
         display: flex;
         background-color: #00522d;
         flex: 0 0 25%;
+        height: 8vh;
 
         color: white;
         padding: 2px;
@@ -86,7 +88,7 @@
     .top-logo-cmps{
         height: 100px;
         margin-top: 0%;
-        padding: 5px;
+        padding: 20px;
         
     }
 }
