@@ -147,6 +147,23 @@
         font-size: 14px;
     }
 
+    /* header css */
+    .header-compass{
+        height: 3vh;
+        background-color: #006f3d;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-child{
+        width: 50vw;
+        background: linear-gradient(-20deg, #00522d 50%, #209159 50%);
+    }
+
+    .header-one{
+        border-right: 1px solid white;
+    }
+
 }
 
 .green-icon-inside-custom{
