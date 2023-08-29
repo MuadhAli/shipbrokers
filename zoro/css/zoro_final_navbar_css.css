@@ -85,12 +85,72 @@
         display: none;
     }
 
-    .top-logo-cmps{
+    .top-logo-cmps {
         height: 100px;
         margin-top: 0%;
         padding: 20px;
-        
+        padding-left: 0px;
+
     }
+
+    .middle-box-in-second {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /* top 3 icons css */
+    .opening-hours {
+        display: flex;
+        align-items: center;
+        font-family: Arial, sans-serif;
+    }
+
+    .green-square {
+        width: 30px;
+        height: 30px;
+        background-color: #006f3d;
+        /* Green color */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+    }
+
+    .green-square i {
+        color: white;
+        /* Color for the clock icon */
+        font-size: 20px;
+    }
+
+    .opening-hours-text {
+        display: flex;
+        flex-direction: column;
+        padding: 6px;
+
+    }
+
+    .green-text {
+        color: #006f3d;
+        /* Green color for the "OPENING HOURS" text */
+        font-weight: bold;
+        line-height: 0%;
+    }
+
+    .grey-text {
+        color: #888;
+        /* Grey color for the hours text */
+        font-size: 14px;
+        margin-top: 0%;
+        line-height: 0%;
+    }
+
+}
+
+.green-icon-inside-custom{
+    width: 16px;
 }
 
 
@@ -310,7 +370,7 @@
     }
 
     .menu::-webkit-scrollbar-thumb {
-        background: #006f3d !important; 
+        background: #006f3d !important;
         /* background: rgba(255, 255, 255, 0.2) !important;  */
     }
 
