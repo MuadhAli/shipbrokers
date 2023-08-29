@@ -3,7 +3,7 @@
     .nav-sec1 {
         background-color: #209159;
         flex: 0 0 60%;
-        height: 8vh;
+        /* height: 8vh; */
 
         display: flex;
         align-items: center;
@@ -41,7 +41,7 @@
         display: flex;
         flex-grow: 1;
         display: block;
-        width: 80vw;
+        width: 100%;
     }
 
     nav a {
@@ -56,11 +56,13 @@
 
     .top-second-box {
         height: 25vh;
+        width: 80vw;
         background-color: black;
 
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        /* align-items: flex-end; */
+        flex-direction: column;
     }
 
     .top-main-box {
@@ -69,7 +71,7 @@
 
         display: flex;
         justify-content: center;
-        align-items: flex-end;
+        /* align-items: flex-end; */
     }
 
     .top-second-spans {
@@ -81,6 +83,11 @@
         display: none;
     }
 
+    .top-logo-cmps{
+        height: 100px;
+        margin-top: 0%;
+        
+    }
 }
 
 
