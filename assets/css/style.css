@@ -2260,7 +2260,7 @@ ul.list-icons li i {
 	-ms-transform-origin    : top;
 	transform-origin        : top;
 	/* background-color        : var(--global--color-heading); */
-	background-color: #E2FF00;
+	background-color: #209159;
 	-webkit-transition      : -webkit-transform .24s ease-in-out;
 	transition              : -webkit-transform .24s ease-in-out;
 	-o-transition           : transform .24s ease-in-out;
@@ -15106,6 +15106,11 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	margin-bottom: 62px;
 }
 
+.heading-title {
+	max-width: 100%; /* The image will not exceed its original width of about-us image*/
+	height: auto;
+  }
+
 .services.services-3 {
 	padding-top        : 130px;
 	padding-bottom     : 110px;
@@ -18912,7 +18917,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer {
-	background-color: #209159;
+	background-color: #006f3d;
 	padding-top     : 0;
 	padding-bottom  : 0;
 	position        : relative;
@@ -18995,7 +19000,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 
 .footer .widget-links ul li a:hover {
 	/* color: var(--global--color-primary); */
-	color: #e2ff00;
+	color: #006f3d;
 
 }
 
