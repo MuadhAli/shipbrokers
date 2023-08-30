@@ -773,11 +773,11 @@ blockquote .author {
 	background-image: linear-gradient(180deg, #14191c 0%, rgba(20, 25, 28, 0) 82%);
 }
 
-.bg-overlay-dark-slider-2:before {
+/* .bg-overlay-dark-slider-2:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#14191c), color-stop(82%, rgba(20, 25, 28, 0)));
 	background-image: -o-linear-gradient(top, #14191c 0%, rgba(20, 25, 28, 0) 82%);
 	background-image: linear-gradient(180deg, #14191c 0%, rgba(20, 25, 28, 0) 82%);
-}
+} */
 
 .bg-overlay-theme:before {
 	background-image: -webkit-gradient(linear, left top, left bottom, from(#209159D9), color-stop(82%, #209159));
