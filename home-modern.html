@@ -179,144 +179,137 @@
       Slider #2 Section
       ============================
       -->
-    <section class="slider slider-2" id="slider-2">
-      <div class="container-fluid pe-0 ps-0">
-        <div class="slider-carousel owl-carousel carousel-navs carousel-dots" data-slide="1" data-slide-rs="1"
-          data-autoplay="true" data-nav="true" data-dots="true" data-space="0" data-loop="true"
-          data-speed="8000000000000000000000">
-          <!--  Start .slide-->
-          <div class="slide bg-overlay bg-overlay-dark-slider-2">
-            <!-- <img src="assets/images/sliders/Slider1.jpg" alt="Background" /> -->
-            <!-- <div class="bg-section">
-              
-            </div> -->
-            <div>
-              <video class="js-player" autoplay loop crossorigin playsinline>
-                <source src="assets/images/video/hero_video.mp4" type="video/mp4" size="100%">
-              </video>
-            </div>
-            <div class="container">
-              <!-- <div class="row">
-                <div class="col-12 col-lg-9">
-                  <div class="slide-content">
-                    <h1 class="slide-headline"
-                      style="color: black; font-family: Helvetica Neue LT Com; position: absolute; bottom: 23%; left: 0; right: 62%; text-align: center;">
-                      COMPASS</h1>
-                    <h1 class="slide-headline"
-                      style="color: black; font-family: Helvetica Neue; position: absolute; bottom: 10%; left: 0; right: 35%; text-align: center;">
-                      YOUR SHIPBROKERS</h1>
-                  </div>
-                </div>
-              </div> -->
-              <!--  End .row-->
-            </div>
-            <!-- End .container-->
+    
+      <section class="slider">
+        <div class="slider-carousel owl-carousel">
+          <div class="slide">
+            <video autoplay loop muted playsinline>
+              <source src="assets/images/video/hero_video.mp4" type="video/mp4">
+            </video>
           </div>
-          <!-- End .slide-->
-          <!--  Start .slide-->
-          <!-- <div class="slide bg-overlay bg-overlay-dark-slider-2">
-            <div class="bg-section"><img src="assets/images/sliders/4.jpg" alt="Background" /></div>
-            <div class="container">
-              <div class="row">
-                <div class="col-12 col-lg-9">
-                  <div class="slide-content">
-                    <h1 class="slide-headline"
-                      style="color: black; font-family: Helvetica Neue LT Com; position: absolute; bottom: 23%; left: 0; right: 62%; text-align: center;">
-                      COMPASS</h1>
-                    <h1 class="slide-headline"
-                      style="color: black; font-family: Helvetica Neue; position: absolute; bottom: 10%; left: 0; right: 35%; text-align: center;">
-                      YOUR SHIPBROKERS</h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
-          <!-- End .slide-->
         </div>
-        <!-- End .slider-carousel-->
-      </div>
-      <!--  End .container-fluid-->
-    </section>
+      </section>
+  
+      <!-- <script src="path-to-your-owl-carousel/js/jquery.min.js"></script> -->
+      <!-- <script src="path-to-your-owl-carousel/js/owl.carousel.min.js"></script> -->
+      <script>
+        $(document).ready(function () {
+          $('.owl-carousel').owlCarousel({
+            items: 1, // Display one item at a time
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 5000, // Adjust autoplay interval as needed
+            nav: true, // Show navigation arrows
+            dots: true // Show navigation dots
+          });
+        });
+      </script>
+  
+      <style>
+        .owl-carousel {
+          width: 100%;
+          top: 0;
+          left: 0;
+        }
+  
+        @media (max-width: 768px) {
+  
+          /* Apply these styles to the video container */
+          .slider {
+            position: relative;
+            width: 100%;
+            max-width: 100%;
+            overflow: hidden;
+          }
+  
+          /* Style the video element to fit the container width */
+          .slider video {
+            width: 100%;
+            height: 100%;
+          }
+  
+        }
+      </style>
     <!--
       ============================
       FeaturesBar #1 Section
       ============================
       -->
-    <section class="features-bar bg-overlay bg-overlay-theme3" id="featuresBar-1">
-      <div class="bg-section"> <img src="assets/images/background/3.jpg" alt="background" /></div>
-      <div class="container" >
-        <div class="row g-0 features-holder">
-          <!-- Start .feature-panel-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
-            <div class="feature-panel">
-              <div class="feature-content"><i class="flaticon-024-energy"></i>
-                <h5>Save Your Money</h5>
+      <section class="features-bar bg-overlay bg-overlay-theme3" id="featuresBar-1">
+        <div class="bg-section"> <img src="assets/images/background/3.jpg" alt="background" /></div>
+        <div class="container">
+          <div class="row g-0 features-holder">
+            <!-- Start .feature-panel-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="feature-panel">
+                <div class="feature-content"><i class="fas fa-ship"></i>
+                  <h5>Save Your Money</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- End .feature-panel-->
-
-          <!-- Start .feature-panel-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
-            <div class="feature-panel">
-              <div class="feature-content"><i class="flaticon-009-ecology-1"></i>
-                <h5>Five Stars Service</h5>
+            <!-- End .feature-panel-->
+  
+            <!-- Start .feature-panel-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="feature-panel">
+                <div class="feature-content"><i class="fas fa-lightbulb"></i>
+                  <h5>Five Stars Service</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- End .feature-panel-->
-          
-          <!-- Start .feature-panel-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
-            <div class="feature-panel">
-              <div class="feature-content"><i class="flaticon-028-greenhouse"></i>
-                <h5>Home Is Energy</h5>
+            <!-- End .feature-panel-->
+  
+            <!-- Start .feature-panel-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="feature-panel">
+                <div class="feature-content"><i class="fas fa-box-open"></i>
+                  <h5>Home Is Energy</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- End .feature-panel-->
-
-          <!-- Start .feature-panel-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
-            <div class="feature-panel">
-              <div class="feature-content"><i class="flaticon-026-world"></i>
-                <h5>Consultation &amp; Planning</h5>
+            <!-- End .feature-panel-->
+  
+            <!-- Start .feature-panel-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="feature-panel">
+                <div class="feature-content"><i class="fas fa-comment"></i>
+                  <h5>Consultation &amp; Planning</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- End .feature-panel-->
-
-          <!-- Start .feature-panel-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
-            <div class="feature-panel">
-              <div class="feature-content"><i class="flaticon-038-ecology"></i>
-                <h5>Certified Engineers</h5>
+            <!-- End .feature-panel-->
+  
+            <!-- Start .feature-panel-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="feature-panel">
+                <div class="feature-content"><i class="fas fa-user-check"></i>
+                  <h5>Certified Engineers</h5>
+                </div>
               </div>
             </div>
-          </div>
-          <!-- End .feature-panel-->
-
-          <!-- Start .feature-panel-->
-          <div class="col-12 col-sm-6 col-md-4 col-lg-2">
-            <div class="feature-panel">
-              <div class="feature-content"><i class="flaticon-003-fuel-1"></i>
-                <h5>Unbeatable Pricing</h5>
+            <!-- End .feature-panel-->
+  
+            <!-- Start .feature-panel-->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+              <div class="feature-panel">
+                <div class="feature-content"><i class="fas fa-dollar-sign"></i>
+                  <h5>Unbeatable Pricing</h5>
+                </div>
               </div>
             </div>
+            <!-- End .feature-panel-->
           </div>
-          <!-- End .feature-panel-->
+  
+          <div class="row">
+            <div class="more-features more-features-2">
+              <p>Discover independence through the power of solar</p><a class="btn btn--bordered btn--white"
+                href="page-pricing.html">explore our plans</a>
+            </div>
+          </div>
+          <!-- End .row-->
         </div>
-
-        <div class="row">
-          <div class="more-features more-features-2">
-            <p>Discover independence through the power of solar</p><a class="btn btn--bordered btn--white"
-              href="page-pricing.html">explore our plans</a>
-          </div>
-        </div>
-        <!-- End .row-->
-      </div>
-      <!-- End .container-->
-    </section>
+        <!-- End .container-->
+      </section>
     <!--
       ============================
       services #2 Section
