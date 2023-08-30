@@ -72,11 +72,11 @@ custom.css and it will override the style in this file. You have been warned! :)
 		#CSS VARIBALES
 \*------------------------------------*/
 :root {
-	--global--color-primary   : #32c36c;
+	--global--color-primary   : #209159;
 	--global--color-primary-90: rgba(50, 195, 108, 0.9);
 	--global--color-primary-70: rgba(50, 195, 108, 0.7);
 	--global--color-heading   : #006f3d;
-	--global--color-secondary : #2b3e4b;
+	--global--color-secondary : #00522d;
 	--global--color-body      : #9b9b9b;
 	--global--color-white     : #ffffff;
 	--global--color-white-90  : rgba(255, 255, 255, 0.9);
@@ -780,9 +780,9 @@ blockquote .author {
 }
 
 .bg-overlay-theme:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#32C36CD9), color-stop(82%, #32C36C));
-	background-image: -o-linear-gradient(top, #32C36CD9 0%, #32C36C 82%);
-	background-image: linear-gradient(180deg, #32C36CD9 0%, #32C36C 82%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#209159D9), color-stop(82%, #209159));
+	background-image: -o-linear-gradient(top, #209159D9 0%, #209159 82%);
+	background-image: linear-gradient(180deg, #209159D9 0%, #209159 82%);
 }
 
 .bg-overlay-theme2:before {
@@ -792,9 +792,9 @@ blockquote .author {
 }
 
 .bg-overlay-theme3:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#32C36CF2), color-stop(86%, #32C36C));
-	background-image: -o-linear-gradient(top, #32C36CF2 0%, #32C36C 86%);
-	background-image: linear-gradient(180deg, #32C36CF2 0%, #32C36C 86%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#209159F2), color-stop(86%, #209159));
+	background-image: -o-linear-gradient(top, #209159F2 0%, #209159 86%);
+	background-image: linear-gradient(180deg, #209159F2 0%, #209159 86%);
 }
 
 .bg-overlay-theme4 {
@@ -808,9 +808,9 @@ blockquote .author {
 }
 
 .bg-overlay-theme5:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(46%, #32c36c), color-stop(144%, #32c36c5c));
-	background-image: -o-linear-gradient(top, #32c36c 46%, #32c36c5c 144%);
-	background-image: linear-gradient(180deg, #32c36c 46%, #32c36c5c 144%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(46%, #209159), color-stop(144%, #2091595c));
+	background-image: -o-linear-gradient(top, #209159 46%, #2091595c 144%);
+	background-image: linear-gradient(180deg, #209159 46%, #2091595c 144%);
 }
 
 .bg-overlay-video:before {
@@ -2341,8 +2341,8 @@ ul.list-icons li i {
 	height           : 64px;
 	margin           : 8px;
 	border-radius    : 50%;
-	border           : 6px solid #32c36c;
-	border-color     : #32c36c transparent #32c36c transparent;
+	border           : 6px solid #209159;
+	border-color     : #209159 transparent #209159 transparent;
 	-webkit-animation: dualring 1.2s linear infinite;
 	animation        : dualring 1.2s linear infinite;
 }
@@ -11226,9 +11226,9 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	right             : 0;
 	width             : 100%;
 	height            : 100%;
-	background-image  : -webkit-gradient(linear, left top, left bottom, color-stop(20%, #32C36CE6), to(#32C36C));
-	background-image  : -o-linear-gradient(top, #32C36CE6 20%, #32C36C 100%);
-	background-image  : linear-gradient(180deg, #32C36CE6 20%, #32C36C 100%);
+	background-image  : -webkit-gradient(linear, left top, left bottom, color-stop(20%, #209159E6), to(#209159));
+	background-image  : -o-linear-gradient(top, #209159E6 20%, #209159 100%);
+	background-image  : linear-gradient(180deg, #209159E6 20%, #209159 100%);
 	-webkit-transform : translateX(0);
 	-ms-transform     : translateX(0);
 	transform         : translateX(0);
