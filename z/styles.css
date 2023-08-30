@@ -10,6 +10,7 @@
   margin: 0 auto;
   text-align: center;
   overflow: hidden;
+  background-color: rgb(57, 59, 59);
 }
 
 .carousel .carousel-inner,
@@ -19,13 +20,44 @@
   height: 100%;
 }
 
-.carousel .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  /* filter: blur(5px); */
 
+
+
+.carousel-caption p {
+  /* your existing styles for the paragraph */
+  font-size: 30px; /* Adjust the font size */
+  position: relative;
 }
+
+.quotation-mark{
+  font-size: 50px;
+  color: yellow;
+}
+
+
+
+
+.carousel .carousel-caption .client-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; 
+  height: 150px;
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin: 0 auto;
+  position: relative;
+}
+
+.carousel .carousel-caption .client-img img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover; 
+  transition: transform 0.3s; 
+}
+
+
+
 
 .carousel .carousel-item::after {
   position: absolute;
@@ -64,25 +96,6 @@
   margin-bottom: 35px;
 }
 
-.carousel .carousel-caption .btn {
-  padding: 15px 35px;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: transparent;
-  border: 2px solid #ffffff;
-  border-radius: 0;
-  transition: .3s;
-}
-
-.carousel .carousel-caption .btn:hover {
-  color: #333;
-  background: teal;
-  border-color: teal;
-}
-
 @media (max-width: 767.98px) {
   .carousel .carousel-caption h1 {
       font-size: 40px;
@@ -93,12 +106,6 @@
       font-size: 20px;
   }
   
-  .carousel .carousel-caption .btn {
-      padding: 12px 30px;
-      font-size: 18px;
-      font-weight: 500;
-      letter-spacing: 0;
-  }
   .edge img{
       width: 100px;
 
