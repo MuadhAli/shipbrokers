@@ -1,0 +1,65 @@
+/* Carousel container */
+#task {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Carousel indicators */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-indicators li.active {
+  background-color: #333;
+}
+
+/* Carousel items */
+.carousel-inner {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-item {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.carousel-item.active {
+  opacity: 1;
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+}
+
+.carousel-control-prev {
+  left: 20px;
+}
+
+.carousel-control-next {
+  right: 20px;
+}
