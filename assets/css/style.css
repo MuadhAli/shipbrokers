@@ -28,7 +28,7 @@
 	14. Alerts
 	15. Backtop
 	16. Page Loader
-	17. Header
+	17. header
 	18. Menu
 	19. Module
 	20. TopBar
@@ -2372,7 +2372,7 @@ ul.list-icons li i {
 }
 
 /*------------------------------------*\
-		#Header
+		#header
 \*------------------------------------*/
 .header {
 	height            : 80px;
