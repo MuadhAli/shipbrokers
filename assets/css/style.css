@@ -6247,7 +6247,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	font-weight   : 700;
 	font-size     : 75px;
 	line-height   : 75px;
-	color         : var(--global--color-white);
+	color         : var(--global--color-grey);
 	margin-bottom : 24px;
 	text-transform: capitalize;
 }
