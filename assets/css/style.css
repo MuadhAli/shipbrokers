@@ -28,7 +28,7 @@
 	14. Alerts
 	15. Backtop
 	16. Page Loader
-	17. Header
+	17. header
 	18. Menu
 	19. Module
 	20. TopBar
@@ -75,7 +75,7 @@ custom.css and it will override the style in this file. You have been warned! :)
 	--global--color-primary   : #32c36c;
 	--global--color-primary-90: rgba(50, 195, 108, 0.9);
 	--global--color-primary-70: rgba(50, 195, 108, 0.7);
-	--global--color-heading   : #253745;
+	--global--color-heading   : #006f3d;
 	--global--color-secondary : #2b3e4b;
 	--global--color-body      : #9b9b9b;
 	--global--color-white     : #ffffff;
@@ -786,9 +786,9 @@ blockquote .author {
 }
 
 .bg-overlay-theme2:before {
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #253745), to(#253745E6));
-	background-image: -o-linear-gradient(top, #253745 50%, #253745E6 100%);
-	background-image: linear-gradient(180deg, #253745 50%, #253745E6 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #006f3d), to(#006f3dE6));
+	background-image: -o-linear-gradient(top, #006f3d 50%, #006f3dE6 100%);
+	background-image: linear-gradient(180deg, #006f3d 50%, #006f3dE6 100%);
 }
 
 .bg-overlay-theme3:before {
@@ -2260,7 +2260,7 @@ ul.list-icons li i {
 	-ms-transform-origin    : top;
 	transform-origin        : top;
 	/* background-color        : var(--global--color-heading); */
-	background-color: #E2FF00;
+	background-color: #209159;
 	-webkit-transition      : -webkit-transform .24s ease-in-out;
 	transition              : -webkit-transform .24s ease-in-out;
 	-o-transition           : transform .24s ease-in-out;
@@ -2372,7 +2372,7 @@ ul.list-icons li i {
 }
 
 /*------------------------------------*\
-		#Header
+		#header
 \*------------------------------------*/
 .header {
 	height            : 80px;
@@ -15106,6 +15106,11 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 	margin-bottom: 62px;
 }
 
+.heading-title {
+	max-width: 100%; /* The image will not exceed its original width of about-us image*/
+	height: auto;
+  }
+
 .services.services-3 {
 	padding-top        : 130px;
 	padding-bottom     : 110px;
@@ -18912,7 +18917,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 }
 
 .footer {
-	background-color: #209159;
+	background-color: #006f3d;
 	padding-top     : 0;
 	padding-bottom  : 0;
 	position        : relative;
@@ -18995,7 +19000,7 @@ ul.dropdown-menu>li.has-dropdown>a:before {
 
 .footer .widget-links ul li a:hover {
 	/* color: var(--global--color-primary); */
-	color: #e2ff00;
+	color: #006f3d;
 
 }
 
