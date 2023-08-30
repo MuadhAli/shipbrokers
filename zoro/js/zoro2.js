@@ -33,3 +33,36 @@ if($("#mobile-menu-container").css("display") != "none") {
         $("#shadow-glass").fadeOut(transitionSpeed);
     });
   }
+
+
+// nav bar scoll effect 
+
+// Select the navbar element
+// const navbar = document.querySelector(".top-main-box");
+
+// // Initial scroll position
+// let prevScrollPos = window.pageYOffset;
+
+// // Function to check and update the navbar visibility
+// function toggleNavbar() {
+//     const currentScrollPos = window.pageYOffset;
+
+//     if (prevScrollPos > currentScrollPos) {
+//         // Scrolling up, show the navbar
+//         navbar.style.transform = "translateY(0)";
+//     } else {
+//         // Scrolling down, hide the navbar
+//         navbar.style.transform = "translateY(-100%)";
+//     }
+
+//     prevScrollPos = currentScrollPos;
+// }
+
+// // Add a scroll event listener to the window
+// window.addEventListener("scroll", toggleNavbar);
+
+
+window.addEventListener('scroll', function (){
+  var navbar = this.document.querySelector(".sticky-nav-custom");
+  navbar.classList.toggle("sticky", this.window.scrollY > 15)
+})
