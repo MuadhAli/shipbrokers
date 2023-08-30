@@ -1,136 +1,65 @@
-
-/*******************************/
-/******** Carousel CSS *********/
-/*******************************/
-.carousel {
+/* Carousel container */
+#task {
   position: relative;
   width: 100%;
-  height: calc(100vh - 170px);
-  min-height: 400px;
-  margin: 0 auto;
-  text-align: center;
   overflow: hidden;
-  background-color: rgb(57, 59, 59);
 }
 
-.carousel .carousel-inner,
-.carousel .carousel-item {
+/* Carousel indicators */
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  background-color: #bbb;
+  margin: 0 5px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.carousel-indicators li.active {
+  background-color: #333;
+}
+
+/* Carousel items */
+.carousel-inner {
   position: relative;
   width: 100%;
-  height: 100%;
 }
 
-
-
-
-.carousel-caption p {
-  /* your existing styles for the paragraph */
-  font-size: 30px; /* Adjust the font size */
-  position: relative;
-}
-
-.quotation-mark{
-  font-size: 50px;
-  color: yellow;
-}
-
-
-
-
-.carousel .carousel-caption .client-img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px; 
-  height: 150px;
-  border-radius: 50%; 
-  overflow: hidden; 
-  margin: 0 auto;
-  position: relative;
-}
-
-.carousel .carousel-caption .client-img img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: cover; 
-  transition: transform 0.3s; 
-}
-
-
-
-
-.carousel .carousel-item::after {
+.carousel-item {
   position: absolute;
-  content: "";
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, .3);
-  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
-.carousel .carousel-caption {
+.carousel-item.active {
+  opacity: 1;
+}
+
+/* Carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  height: calc(100vh - 170px);
-  min-height: 400px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
 }
 
-.carousel .carousel-caption p {
-  color: #ffffff;
-  font-size: 30px;
-  margin-bottom: 15px;
-  letter-spacing: 1px;
+.carousel-control-prev {
+  left: 20px;
 }
 
-.carousel .carousel-caption h1 {
-  color: #ffffff;
-  font-size: 60px;
-  font-weight: 700;
-  margin-bottom: 35px;
-}
-
-@media (max-width: 767.98px) {
-  .carousel .carousel-caption h1 {
-      font-size: 40px;
-      font-weight: 700;
-  }
-  
-  .carousel .carousel-caption p {
-      font-size: 20px;
-  }
-  
-  .edge img{
-      width: 100px;
-
-  }
-}
-
-@media (max-width: 575.98px) {
-  .carousel .carousel-caption h1 {
-      font-size: 30px;
-      font-weight: 500;
-  }
-  
-  .carousel .carousel-caption p {
-      font-size: 16px;
-  }
-  
-  .carousel .carousel-caption .btn {
-      padding: 10px 25px;
-      font-size: 16px;
-      font-weight: 400;
-      letter-spacing: 0;
-  }
-}
-
-.carousel .animated {
-  -webkit-animation-duration: 1.5s;
-  animation-duration: 1.5s;
+.carousel-control-next {
+  right: 20px;
 }
