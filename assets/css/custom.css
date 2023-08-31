@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'HelvetLight';
+    src: url('/assets/fonts/helvet/HelveticaNeueLTCom-Cn.ttf') format('truetype');
+    /* You can specify other font formats here as well */
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HelvetBold';
+    src: url('/assets/fonts/helvet/HelveticaNeueLTCom-BdCn.ttf') format('truetype');
+    /* You can specify other font formats here as well */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+
+:root {
+    --global--color-primary: #209159;
+    --global--color-primary-90: rgba(50, 195, 108, 0.9);
+    --global--color-primary-70: rgba(50, 195, 108, 0.7);
+    --global--color-heading: #006f3d;
+    --global--color-secondary: #00522d;
+    --global--color-body: #9b9b9b;
+    --global--color-white: #ffffff;
+    --global--color-white-90: rgba(255, 255, 255, 0.9);
+    --global--color-gray: #f9f9f9;
+    /* --global--font-body: 'Roboto', sans-serif; */
+    /* --global--font-heading: 'IBM Plex Sans', sans-serif; */
+    /* --global--font-secondary: 'Heebo', sans-serif; */
+    --global--font-light: 'HelvetLight';
+    --global--font-bold: 'HelvetBold';
+}
+
 /*  ===================== 
         VIDEO CSS 
     ===================== */
@@ -178,3 +211,10 @@ body {
 }
 
 /* ======================= TESTIMONIALS CSS END =================== */
+
+
+.footer-para{
+    color: white;
+    font-size: large;
+    font-family: 'HelvetLight';
+}

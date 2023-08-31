@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'HelvetLight';
+    src: url('/assets/fonts/helvet/HelveticaNeueLTCom-Cn.ttf') format('truetype');
+    /* You can specify other font formats here as well */
+    font-weight: normal;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'HelvetBold';
+    src: url('/assets/fonts/helvet/HelveticaNeueLTCom-BdCn.ttf') format('truetype');
+    /* You can specify other font formats here as well */
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+div{
+    font-family: 'HelvetLight';
+}
+
 @media (min-width: 768px) {
 
     .nav-sec1 {
@@ -152,6 +171,7 @@
     .opening-hours-text {
         display: flex;
         flex-direction: column;
+        font-family: 'HelvetLight';
 
     }
 
