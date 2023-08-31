@@ -23,16 +23,12 @@
   <!--Nav Bar style -->
   <link rel="stylesheet" href="assets/css/navbar.css">
 
+  <!--custom style -->
+  <link rel="stylesheet" href="assets/css/custom.css">
+
   <!-- Nav bar libraries  -->
   <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-
-  <style>
-    @font-face {
-      font-family: 'Helvetica Neue LT Com';
-      src: url('assets/fonts/Helvetica-Neue-LT-Com-65-Medium.ttf') format('truetype');
-    }
-  </style>
 </head>
 
 <body>
@@ -45,16 +41,14 @@
   <!-- Document Wrapper-->
   <div class="wrapper clearfix" id="wrapperParallax">
 
-    <!-- ============ HEADER ABOVE NAV BAR ======================= -->
+    <!-- ============ NAV BAR BEGINS ========================= -->
     <header>
+      <!-- header  -->
       <div class="header-compass">
         <div class="header-child header-one"></div>
         <div class="header-child header-two"></div>
       </div>
-
-      <!-- ============ HEADER ABOVE NAV BAR END ======================= -->
-
-      <!-- ============ NAV BAR BEGINS ========================= -->
+      <!-- header end  -->
 
       <!-- MOBILE NAV BAR CODE  -->
       <div class="mobile-nav-menu">
@@ -85,7 +79,7 @@
         <!--MODAL-->
         <div id="shadow-glass"></div>
       </div>
-
+      <!-- mobile nav bar code end  -->
 
       <!-- LARGE SCREEN NAVBAR CODE -->
       <div class="top-main-box">
@@ -179,65 +173,7 @@
       ============================
       -->
 
-
-
-    <!-- *******************fixed************ top video****************  -->
-
-
-
-
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-
-      .custom-slider-container {
-        position: relative;
-        width: 100%;
-        height: 100vh;
-        overflow: hidden;
-      }
-
-      .custom-video-background {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
-      }
-
-      .custom-slider-content {
-        position: absolute;
-        top: 70%;
-        left: 5%;
-        transform: translate(0, 0);
-        color: white;
-        text-align: left;
-        z-index: 1;
-      }
-
-      .custom-slider-content h1 {
-        color: black;
-      }
-
-      .custom-slider-content h2 {
-        color: white;
-      }
-
-      .custom-slide {
-        display: none;
-      }
-
-      @media (max-width: 768px) {
-        .custom-slider-content {
-          font-size: 24px;
-        }
-      }
-    </style>
+    <!-- ======= TOP CAROUSEL VIDEO ========= -->
 
     <div class="custom-slider-container">
       <video class="custom-video-background" autoplay loop muted>
@@ -249,19 +185,8 @@
         <h2>YOUR SHIPBROKERS.</h2>
       </div>
     </div>
-    <script>
-      const video = document.querySelector('.custom-video-background');
 
-      video.addEventListener('loadedmetadata', () => {
-        video.style.opacity = 1;
-      });
-    </script>
-
-    <!-- *******************brroke************ top video****************  -->
-
-
-
-
+    <!-- ======= TOP CAROUSEL VIDEO ========= -->
 
     <!--
       ============================
@@ -976,126 +901,11 @@
     <br><br> -->
 
 
-  <!-- **************************testimoninoa***************  -->
-
-  <style>
-    .container-un-cs {
-      width: 100%;
-      max-width: 100%;
-      height: 400px;
-      background-color: #00522d;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-    }
-
-    .content-un-cs {
-      text-align: center;
-      padding: 20px;
-      box-sizing: border-box;
-    }
-
-    .arrow {
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 30px;
-      height: 30px;
-      background-color: transparent;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 20px;
-      cursor: pointer;
-      color: black;
-    }
-
-    .arrow.left {
-      left: 20px;
-    }
-
-    .arrow.right {
-      right: 20px;
-    }
-
-    .content-un-cs {
-      text-align: center;
-      padding: 10px;
-      box-sizing: border-box;
-
-    }
-
-    .content-un-cs img {
-      width: 100px;
-      height: auto;
-      border-radius: 50%;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-      margin-top: 40px;
-    }
-
-    .content-un-cs h2 {
-      margin-top: 10px;
-      color: white;
-
-    }
-
-    .content-un-cs p {
-      margin-top: 10px;
-      color: #E2FF00;
-
-    }
-
-    .slide-un-cs {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out;
-    }
-
-    .slide-un-cs.active {
-      opacity: 1;
-    }
-
-    @keyframes slide-in {
-      from {
-        transform: translateX(100%);
-      }
-
-      to {
-        transform: translateX(0);
-      }
-    }
-
-    .indicators-un-cs {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-      position: absolute;
-      bottom: 20px;
-      left: 0;
-      right: 0;
-    }
-
-    .indicator-un-cs {
-      width: 10px;
-      height: 10px;
-      background-color: #ccc;
-      border-radius: 50%;
-      margin: 0 5px;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-
-    .indicator-un-cs.active {
-      background-color: #E2FF00;
-    }
-  </style>
+  <!-- 
+      ========================= 
+            TESTIMONIALS 
+      =========================
+  -->
 
   <div class="container-un-cs">
     <div class="arrow left" onclick="changeSlide(-1)">
@@ -1134,50 +944,8 @@
     </div>
   </div>
 
-  <script>
-    let currentSlide = 0;
-    const slides = document.querySelectorAll('.slide-un-cs');
-    const indicators = document.querySelectorAll('.indicator-un-cs'); // Add this line
-
-    function changeSlide(direction) {
-      slides[currentSlide].classList.remove('active');
-      indicators[currentSlide].classList.remove('active'); // Add this line
-
-      currentSlide = (currentSlide + direction + slides.length) % slides.length;
-
-      slides[currentSlide].classList.add('active');
-      indicators[currentSlide].classList.add('active'); // Add this line
-    }
-
-    function startAutoSlide() {
-      setInterval(function () {
-        changeSlide(1);
-      }, 2000);
-    }
-    startAutoSlide();
-  </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- **************************testimoninoa***************  -->
+ <!-- ========================= TESTIMONIALS END ====================== -->
   <br><br>
-
 
   <!--
       ============================
@@ -1328,6 +1096,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="assets/js/navbar.js"></script>
+
+  <!-- video js  -->
+  <script src="assets/js/custom.js" ></script>
 </body>
 
 </html>
